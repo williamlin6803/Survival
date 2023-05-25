@@ -82,3 +82,10 @@ def make_input_fn(data_df, label_df, num_epochs=10, shuffle=True, batch_size=32)
 
 train_input_fn = make_input_fn(dftrain, y_train)  # here we will call the input_function that was returned to us to get a dataset object we can feed to the model
 eval_input_fn = make_input_fn(dfeval, y_eval, num_epochs=1, shuffle=False)
+
+# use the specified feature columns to transform the input data and apply linear classification algorithms to make predictions.
+linear_est = tf.estimator.LinearClassifier(feature_columns=feature_columns)
+
+linear_est.train(train_input_fn)  # train
+result = linear_est.evaluate(eval_input_fn)  # get model metrics/stats by testing on tetsing data
+print(result['accuracy'])  # the result variable is simply a dict of stats about our model
