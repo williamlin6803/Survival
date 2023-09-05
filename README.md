@@ -4,7 +4,7 @@
 
 - This project aims to predict the likelihood of a passenger surviving the Titanic shipwreck
 - Preprocessing techniques to deal with both categorical and numerical data types
-- Model is trained on features such as age, sex, passenger class, etc using a Linear Classifier provided by TensorFlow
+- Model is trained on features such as age, sex, class, etc using a Linear Classifier provided by TensorFlow
 - Performance is evaluated using the testing data, and the accuracy metric is printed as an outcome
 
 ## Requirements:
