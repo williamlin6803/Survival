@@ -39,9 +39,9 @@ https://github.com/williamlin6803/Survival.git
 
 ## Results:
 
-- The model achieves an accuracy of X% on the test set (replace X with the actual result)
+- The model achieves an accuracy of 78% on the test set
 
 ## Future Plans:
 
-- Implement more sophisticated models like Random Forests or Neural Networks for better accuracy
+- Implement more sophisticated models that uses other Machine Learning Techniques such as Random Forests or Neural Networks for better accuracy
 
