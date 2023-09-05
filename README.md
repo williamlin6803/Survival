@@ -39,7 +39,7 @@ https://github.com/williamlin6803/Survival.git
 
 ## Results:
 
-- The model achieves an accuracy of 78% on the test set
+- The model achieves an accuracy of 78% on the test data
 
 ## Future Plans:
 
